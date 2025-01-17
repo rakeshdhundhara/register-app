@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'any' } // This will allow Jenkins to use any available agent
+    agent { label 'Jenkins-Agent' } // This will allow Jenkins to use any available agent
     tools {
         jdk 'Java 17'
         maven 'Maven3'
